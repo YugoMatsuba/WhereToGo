@@ -1,0 +1,83 @@
+ /* body  */
+
+ body{
+    background-image:url(ground.png);
+    background-repeat:  no-repeat;                         /* 画像の繰り返しを指定  */              
+    background-size:cover;                               /* 画像のサイズを指定    */
+    width:100%;                                            /* 横幅のサイズを指定    */
+    height: 100%;    
+}
+
+
+
+/* header */
+.header{
+    height:110px;
+background-color:#2195ff;
+}
+
+.header img{
+    width:24%;
+    height:110px;
+    margin-left:15%
+}
+
+
+
+/* main */
+.main{
+    background-color:white;
+    height:2400px;
+    margin-left:15%;
+    margin-right:15%;
+    margin-bottom:40px;
+    text-align:center;
+}
+
+.main h1{
+    font-size:60px;
+    margin-top:30px;
+    font-family:"Arial Black";
+    padding-top:35px;
+    color:lightskyblue;
+}
+
+.main h2{
+    font-size:40px;
+    margin-top:10px;
+    font-family:"Arial Black";
+    padding-top:25px;
+    color:black;
+}
+
+.main img{
+    width:60%;
+}
+
+p{
+    width:60%;
+    margin-left:200px;
+}
+
+.place{
+    border-top: 9px solid grey;    /* 上側の1本線 */
+    margin-bottom:10px;
+}
+
+.warning{
+    font-size:50px;
+    color:red;
+}
+
+/* footer */
+.footer{
+    background-color:lightgray;
+    height:100px;
+}
+
+.footer p{
+    color:black;
+    padding-top:40px;
+    font-size:22px;
+    margin-left:485px
+}
